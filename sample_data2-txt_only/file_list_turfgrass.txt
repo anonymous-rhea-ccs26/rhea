@@ -1,0 +1,266 @@
+FILE INVENTORY
+
+Dataset: Claire Louise Phillips; Ruying Wang; Trammell, Tara L.E.; Young, Joseph; Kowalewski, Alec (2022). Turfgrass Soil Carbon Change Through Time: Raw Data and Code. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1528200. 
+
+++++++
+
+File Title: Data dictionary for Turfgrass soil C changes through time v1
+File Name: DataDictionary.xlsx
+
+++++++
+
+File Title: Turfgrass Carbon Meta-Analysis Main Code
+File Name: TurfgrassCarbonMeta-analysis_v1.R
+File Description: R script to compute whole-profile soil C sequestration rates and associated errors for each dataset, perform meta-analyses, and generate figures for the manuscript "High soil carbon sequestration rates persist several decades in turfgrass systems: a meta-analysis".
+
+++++++
+
+File Title: ModifiedVanHadenESMScript
+File Name: ModifiedVanHadenESMScript.R
+File Description: R script to compute soil C stocks by equivalent soil mass method. Modified from code provided by Von Haden et al., 2020 (DOI: 10.1111/gcb.15124).
+
+++++++
+
+File Title: Dataset Summaries and Citations
+File Name: Dataset summaries and citations.docx
+File Description: Provides summary information and complete citations for all the datasets included.
+
+++++++
+
+File Title: CarbonDatabase
+File Name: CarbonDatabase_Submit_Oct2022.xlsx
+File Description: Contains descriptions of each study, summary values for sequestration rates by sampling interval and whole depth, and computations for emissions from maintenance activities.
+
+++++++
+
+File Title: All Turfgrass Data_By Layer
+File Name: All_Turfgrass_Data_By Layer.xlsx
+File Description: Soil carbon concentration, bulk density, and carbon stock measured in individual soil layers. These data were used to re-compute stocks by equivalent soil mass in contrast to fixed depth accounting. These data are duplicates of data provided in individual files for each study. Not all studies reported depth-discrete data, so not all studies are included here.
+
+++++++
+
+File Title: Braun2019_Kansas_tidy
+File Name: Braun2019_Kansas_tidy.csv
+File Description: Dataset from Braun, R. C., & Bremer, D. J. (2019). Carbon Sequestration in Zoysiagrass Turf under Different Irrigation and Fertilization Management Regimes. Agrosystems, Geosciences & Environment, 2(1), 1–8. https://doi.org/10.2134/age2018.12.0060
+
+++++++
+
+File Title: Campbell2014_AuthorsCopy_tidy
+File Name: Campbell2014_AuthorsCopy_tidy.csv
+File Description: Data from Campbell, C., Seiler, J., Wiseman, P., Strahm, B., & Munsell, J. (2014). Soil Carbon Dynamics in Residential Lawns Converted from Appalachian Mixed Oak Stands. Forests, 5(3), 425–438. https://doi.org/10.3390/f5030425
+
+++++++
+
+File Title: Carley2011_NorthCarolina
+File Name: Carley2011_NorthCarolina.xslx
+File Description: Data from Carley, D. S., Goodman, D., Sermons, S., Shi, W., Bowman, D., Miller, G., & Rufty, T. (2011). Soil Organic Matter Accumulation in Creeping Bentgrass Greens: A Chronosequence with Implications for Management and Carbon Sequestration. Agronomy Journal, 103(3), 604–610. https://doi.org/10.2134/agronj2010.0335
+
+++++++
+
+File Title: Contosta2020_Manchester
+File Name: Contosta2020_Manchester_tidy.csv
+File Description: Data from Contosta, A. R., Lerman, S. B., Xiao, J., & Varner, R. K. (2020). Biogeochemical and socioeconomic drivers of above- and below-ground carbon stocks in urban residential yards of a small city. Landscape and Urban Planning, 196, 103724. https://doi.org/10.1016/j.landurbplan.2019.103724
+
+++++++
+
+File Title: Gautum2020_tidy
+File Name: Gautum2020_tidy.csv
+File Description: Data from: Gautam, P., Young, J. R., Sapkota, M., Longing, S., & Weindorf, D. C. (2020). Soil carbon sequestration in bermudagrass golf course fairways in Lubbock, Texas. Agronomy Journal, 112(1), 148–157. https://doi.org/10.1002/agj2.20023
+
+++++++
+
+File Title: Golubiewski2006_Denver
+File Name: Golubiewski2006_Denver.csv
+File Description: Data from Golubiewski, N. E. (2006). Urbanization Increases Grassland Carbon Pools: Effects Of Landscaping In Colorado’s Front Range. Ecological Applications, 16(2), 555–571. https://doi.org/10.1890/1051-0761(2006)016[0555:UIGCPE]2.0.CO;2
+
+++++++
+
+File Title: Huh2008
+File Name: Huh2008.csv
+File Description: Data from Huh, K. Y., Deurer, M., Sivakumaran, S., McAuliffe, K., & Bolan, N. S. (2008). Carbon sequestration in urban landscapes: The example of a turfgrass system in New Zealand. Soil Research, 46(7), 610. https://doi.org/10.1071/SR07212
+
+++++++
+
+File Title: Huyler2013_AuthorsCopy_tidy
+File Name: Huyler2013_AuthorsCopy_tidy.csv
+File Description: Data from Huyler, A., Chappelka, A. H., Fan, Z., & Prior, S. A. (2017). A comparison of soil carbon dynamics in residential yards with and without trees. Urban Ecosystems, 20(1), 87–96. https://doi.org/10.1007/s11252-016-0572-y
+
+++++++
+
+File Title: Qian2002_FairwaysCO
+File Name: Qian2002_FairwaysCO.csv
+File Description: Data from Qian, Y., & Follett, R. F. (2002). Assessing soil carbon sequestration in turfgrass systems using long-term soil testing data. Agronomy Journal, 94, 930–935.
+
+++++++
+
+File Title: Qian2002_FairwaysWY
+File Name: Qian2002_FairwaysWY.csv
+File Description: Data from Qian, Y., & Follett, R. F. (2002). Assessing soil carbon sequestration in turfgrass systems using long-term soil testing data. Agronomy Journal, 94, 930–935.
+
+++++++
+
+File Title: Qian2002_GreensCO
+File Name: Qian2002_GreensCO.csv
+File Description: Data from Qian, Y., Follett, R. F., & Kimble, J. M. (2010). Soil Organic Carbon Input from Urban Turfgrasses. Soil Science Society of America Journal, 74(2), 366–371. https://doi.org/10.2136/sssaj2009.0075
+
+++++++
+
+File Title: Raciti2011_from author
+File Name: Raciti2011_from author.csv
+File Description: Dataset from Raciti, S. M., Groffman, P. M., Jenkins, J. C., Pouyat, R. V., Fahey, T. J., Pickett, S. T. A., & Cadenasso, M. L. (2011). Accumulation of Carbon and Nitrogen in Residential Soils with Different Land-Use Histories. Ecosystems, 14(2), 287–297. https://doi.org/10.1007/s10021-010-9409-3. Dataset also available from https://doi.org/10.6073/pasta/3847c58578bd9d5987a49e55066b497b
+
+++++++
+
+File Title: Sapkota2020_Lubbock
+File Name: Sapkota2020_Lubbock.csv
+File Description: Data from Sapkota, M., Young, J., Coldren, C., Slaughter, L., & Longing, S. (2020). Soil physiochemical properties and carbon sequestration of Urban landscapes in Lubbock, TX, USA. Urban Forestry & Urban Greening, 56, 126847. https://doi.org/10.1016/j.ufug.2020.126847
+
+++++++
+
+File Title: Selhorst2011_OHFairways_tidy
+File Name: Selhorst2011_OHFairways_tidy.csv
+File Description: Data from Selhorst, A. L., & Lal, R. (2011). Carbon budgeting in golf course soils of Central Ohio. Urban Ecosystems, 14(4), 771–781. https://doi.org/10.1007/s11252-011-0168-5
+
+++++++
+
+File Title: Selhorst2011_OHRough_tidy
+File Name: Selhorst2011_OHRough_tidy.csv
+File Description: Data from Selhorst, A. L., & Lal, R. (2011). Carbon budgeting in golf course soils of Central Ohio. Urban Ecosystems, 14(4), 771–781. https://doi.org/10.1007/s11252-011-0168-5
+
+++++++
+
+File Title: Selhorst2013_Albuquerque_tidy
+File Name: Selhorst2013_Albuquerque_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Atlanta_tidy
+File Name: Selhorst2013_Atlanta_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Cheyenne_tidy
+File Name: Selhorst2013_Cheyenne_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Dallas_tidy
+File Name: Selhorst2013_Dallas_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Denver_tidy
+File Name: Selhorst2013_Denver_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Duluth_tidy
+File Name: Selhorst2013_Duluth_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Houston_tidy
+File Name: Selhorst2013_Houston_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_LasVegas_tidy
+File Name: Selhorst2013_LasVegas_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Minneapolis_tidy
+File Name: Selhorst2013_Minneapolis_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Orlando_tidy
+File Name: Selhorst2013_Orlando_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Phoenix_tidy
+File Name: Selhorst2013_Phoenix_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Portland_tidy
+File Name: Selhorst2013_Portland_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_SanFrancisco_tidy
+File Name: Selhorst2013_SanFrancisco_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Seattle_tidy
+File Name: Selhorst2013_Seattle_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Wichita_tidy
+File Name: Selhorst2013_Wichita_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: Selhorst2013_Wooster_tidy
+File Name: Selhorst2013_Wooster_tidy.csv
+File Description: Data from Selhorst, A., & Lal, R. (2013). Net Carbon Sequestration Potential and Emissions in Home Lawn Turfgrasses of the United States. Environmental Management, 51(1), 198–208. https://doi.org/10.1007/s00267-012-9967-6
+
+++++++
+
+File Title: SethCarley2011_NorthCarolina_tidy
+File Name: SethCarley2011_NorthCarolina_tidy.csv
+File Description: Data from Carley, D. S., Goodman, D., Sermons, S., Shi, W., Bowman, D., Miller, G., & Rufty, T. (2011). Soil Organic Matter Accumulation in Creeping Bentgrass Greens: A Chronosequence with Implications for Management and Carbon Sequestration. Agronomy Journal, 103(3), 604–610. https://doi.org/10.2134/agronj2010.0335
+
+++++++
+
+File Title: Shi2012_NorthCarolina
+File Name: Shi2012_NorthCarolina.csv
+File Description: Data from Shi, W., Bowman, D., & Rufty, T. (2012). Microbial Control of Soil Carbon Accumulation in Turfgrass Systems. In R. Lal & B. Augustin (Eds.), Carbon Sequestration in Urban Ecosystems (pp. 215–231). Springer Netherlands. https://doi.org/10.1007/978-94-007-2366-5_11
+
+++++++
+
+File Title: Smith2018_tidy
+File Name: Smith2018_tidy.csv
+File Description: Data from Smith, R. M., Williamson, J. C., Pataki, D. E., Ehleringer, J., & Dennison, P. (2018). Soil carbon and nitrogen accumulation in residential lawns of the Salt Lake Valley, Utah. Oecologia, 187(4), 1107–1118. https://doi.org/10.1007/s00442-018-4194-3
+
+++++++
+
+File Title: Townsend2010_AthleticField
+File Name: Townsend2010_AthleticField.csv
+File Description: Data from Townsend-Small, A., & Czimczik, C. I. (2010). Carbon sequestration and greenhouse gas emissions in urban turf. Geophysical Research Letters, 37(2), n/a-n/a. https://doi.org/10.1029/2009GL041675
+
+++++++
+
+File Title: Townsend2010_Lawns
+File Name: Townsend2010_Lawns.csv
+File Description: Data from Townsend-Small, A., & Czimczik, C. I. (2010). Carbon sequestration and greenhouse gas emissions in urban turf. Geophysical Research Letters, 37(2). https://doi.org/10.1029/2009GL041675
+
+++++++
+
+File Title: Trammell2020_tidy
+File Name: Trammell2020_tidy.csv
+File Description: Data from Trammell, T. L. E., Pataki, D. E., Pouyat, R. V., Groffman, P. M., Rosier, C., Bettez, N., Cavender‐Bares, J., Grove, M. J., Hall, S. J., Heffernan, J., Hobbie, S. E., Morse, J. L., Neill, C., & Steele, M. (2020). Urban soil carbon and nitrogen converge at a continental scale. Ecological Monographs, 90(2). https://doi.org/10.1002/ecm.1401
+
+++++++
+
+File Title: Wang2014
+File Name: Wang2014.csv
+File Description: Data from Wang, Y., Tu, C., Li, C., Tredway, L., Lee, D., Snell, M., Zhang, X., & Hu, S. (2014). Turfgrass Management Duration and Intensities Influence Soil Microbial Dynamics and Carbon Sequestration. International Journal of Agriculture & Biology, 16, 139–145.

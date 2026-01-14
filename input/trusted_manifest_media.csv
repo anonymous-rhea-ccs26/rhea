@@ -1,0 +1,10 @@
+sha256,source,container,entry,media_ext
+55a986d50b11a927b3d45a4c425c1b28af58c9ce8bee2179a66246f2171b495c,file,/home/cslab/project/rhea/sample_data/1070.mp4,,mp4
+bb272dd8e372d5b25c20be9b262817f0cbfaf7299cf6d8e3c9db0cb8fc20d9b4,file,/home/cslab/project/rhea/sample_data/0483900e6425b41a.png,,png
+69382e98adede0039792e9c9cf153183c1c14056f7993d50567b600e33240ea0,file,/home/cslab/project/rhea/sample_data/a88cf9722f76deeb.jpg,,jpg
+14451c2186ceafec45768f4f98880201d8fe7cdfadcae51f7a5b2b24268897d0,ooxml,/home/cslab/project/rhea/sample_data/02_Serching_Techniques.pptx,docProps/thumbnail.jpeg,jpeg
+ba31d65c5c8458c790fc9d6fe50aec9db9a7740f113a15949fc5d25c73d35f65,ooxml,/home/cslab/project/rhea/sample_data/Data.docx,word/media/image3.emf,emf
+379a1a6166ce09aefb71363d91a01f491e2d897b7908e8d602f6a6c3df32e71a,ooxml,/home/cslab/project/rhea/sample_data/Data.docx,word/media/image2.emf,emf
+8c14bbfe88bb03f0cde9ad57cf14b5af6c13f848ad6378d89f59f747f36276a4,ooxml,/home/cslab/project/rhea/sample_data/Data.docx,word/media/image1.png,png
+427bb9bd65671aff19f6eafa1389286874b450fb3f507a4dc95a932926afee56,file,/home/cslab/project/rhea/sample_data/055783.mp3,,mp3
+f84b90daed735eb2d9790a78ff820ee999c6ab5251f543ff03ff7e9dfcb2638c,pdf,/home/cslab/project/rhea/sample_data/01-introduction.pdf,stream@40538-72167,

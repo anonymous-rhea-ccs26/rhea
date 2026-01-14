@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rhea"
+version = "0.1.0"
+description = "Cloud-based Privilege Evasive Ransomware Defense Mechanism"
+authors = [{ name="Anonymous", email="Anonymous" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "boto3",
+    "pyarrow",
+    "pyspark",
+    "streamlit",
+    "tqdm",
+    "python-docx",
+    "openpyxl",
+    "python-pptx",
+    "PyPDF2",
+    "Pillow",
+    "mutagen",
+    "moviepy",
+    "olefile",
+    "intervaltree",
+    "pytsk3",
+    "pytest",
+    "pyyaml",
+    "pycryptodome",
+    # "SQLAlchemy", # Uncomment if you need this
+    "matplotlib"
+]
+
+[project.scripts]
+# Preprocessor: builds mutation snapshots + bitmaps
+rhea-preprocess = "preprocessor.preprocess:main"
+
+# Detector: runs the detection pipeline (adjust module path to your detector entry)
+rhea-detect = "detector.detect:main"
+
+# Postprocessor: processes detection results (adjust module path as needed)
+rhea-postprocess = "postprocessor.postprocess:main"
+
+# Restorer: restores device snapshots (adjust module path as needed)
+rhea-restore = "restorer.restore:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+# Uncomment the following line if you want to include all subpackages, otherwise adjust as needed.
+# include = ["detector*"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-ra"

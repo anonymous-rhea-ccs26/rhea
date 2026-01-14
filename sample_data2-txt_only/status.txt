@@ -1,0 +1,246 @@
+This file provides the latest status of NOAA's 1981-2010 Climate Normals
+
+Created: June 29, 2011
+
+Last Modified: August 21, 2015
+
+
+*** August 21, 2015:
+
+Service Pack 2 (SP2) of NOAA's U.S. Climate Normals has been released.
+SP2 includes changes to precipitation, snowfall, and/or snow depth
+parameters for the following 8 stations:
+
+USW00014735
+USW00013904
+USW00023157
+USW00003927
+USC00053146
+USC00195984
+USW00094197
+USW00013959 
+
+Changes for the 8 stations above were requested by representatives of
+the National Weather Service. No further changes to existing 1981-2010
+Climate Normals products are expected.
+
+
+
+*** August 21, 2015:
+
+A new file has been added to the "station-inventories" directory that
+contains zip code and post office names for the vast majority of
+stations included in the 1981-2010 Climate Normals.
+
+In addition, the daily standard deviation files (for minimum, maximum,
+and mean temperatures as well as diurnal temperature range) have been 
+replaced using the methodology described by a forthcoming paper by James
+and Arguez in the Journal of Atmospheric and Oceanic Technology. The new
+methodology computes daily standard deviations from climate anomalies
+within the 15-day window, where the climate anomalies were computed 
+using daily temperature normals. The previous method re-centered each
+day within the 15-day window using the raw daily mean for that day. The
+net effect of this methodological change, on average, for all stations
+and all parts of the year, is close to zero, with only ~5% of values
+changing by more than +/- 0.2F.
+
+
+
+*** August 17, 2015:
+
+This update to NOAA's 1981-2010 Climate Normals replaces the hourly
+normals products. The files were replaced to (1) add more stations to
+the hourly product line and (2) modify the computation of the 
+percentage of calm winds. See the addendum in the documentation
+directory.
+
+In addition, new supplemental products are being released, including
+10-year hourly normals and air freezing index values and return periods. 
+See the supplemental directory for more information and to access these
+products. In the future, we plan to release various new monthly
+temperature normals products (5-, 10-, 15-, 20-year averages; OCN; and 
+Hinge Fit) computed using something other than a 30-year average. 
+
+
+
+*** January 2, 2013:
+
+NOAA's 1981-2010 Supplemental Normals were released on January 2, 2013.
+This includes growing degree days, probabilities of first and last frost
+and freeze events, probabilities of occurrence of minimum temperature
+thresholds, and growing season length probabilities. See readme.txt and
+the "supplemental" directory for more information on how to access these 
+new products.
+
+
+
+*** August 4, 2012:
+
+Effective Saturday, August 4, 2012, Service Pack 1 (SP1) of NOAA's U.S.
+Climate Normals is being released. SP1 includes the following 4 changes:
+
+1. Following change requests submitted by the National Weather Service
+(NWS), the precipitation, snowfall, and snow depth normals parameters at
+83 stations were recalculated based on GHCN-Daily version 
+2.92-upd-2012052822. These include 81 stations for which the NWS
+submitted additional snowfall and snow depth data. The normals for the
+other two stations were reissued to remedy unique issues affecting their
+average monthly precipitation totals in particular months.
+
+All other normals remain unchanged and are based on GHCN-Daily version 
+2.80-por-2011052713. The stations whose precipitation- and snow-related
+normals were recomputed are listed below.
+
+Station ID   Reason/Action
+-----------  -----------------------------------------------------------
+USW00003017  July precipitation normal was suboptimal due to problematic
+                 input data; improved by using only Denver Stapleton for
+                 underlying estimated monthly totals
+USW00003103  NWS supplied additional snow data
+USW00003859  NWS supplied additional snow data
+USW00003928  NWS supplied additional snow data
+USW00003940  NWS supplied additional snow data
+USW00003945  NWS supplied additional snow data
+USW00004781  NWS supplied additional snow data
+USW00012816  NWS supplied additional snow data
+USW00012916  NWS supplied additional snow data
+USW00012921  NWS supplied additional snow data
+USW00013722  NWS supplied additional snow data
+USW00013723  NWS supplied additional snow data
+USW00013728  NWS supplied additional snow data
+USW00013733  NWS supplied additional snow data
+USW00013741  NWS supplied additional snow data
+USW00013743  NWS supplied additional snow data
+USW00013764  August precipitation pseudonormal was sub-optimal due to 
+                 insufficiently representative input data; enough data
+                 now available for computing traditional normals rather  
+                 than pseudonormals
+USW00013865  NWS supplied additional snow data
+USW00013870  NWS supplied additional snow data
+USW00013878  NWS supplied additional snow data
+USW00013889  NWS supplied additional snow data
+USW00013894  NWS supplied additional snow data
+USW00013897  NWS supplied additional snow data
+USW00013899  NWS supplied additional snow data
+USW00013958  NWS supplied additional snow data
+USW00013962  NWS supplied additional snow data
+USW00013964  NWS supplied additional snow data
+USW00013966  NWS supplied additional snow data
+USW00013967  NWS supplied additional snow data
+USW00013968  NWS supplied additional snow data
+USW00013970  NWS supplied additional snow data
+USW00013994  NWS supplied additional snow data
+USW00014607  NWS supplied additional snow data
+USW00014732  NWS supplied additional snow data
+USW00014734  NWS supplied additional snow data
+USW00014745  NWS supplied additional snow data
+USW00014764  NWS supplied additional snow data
+USW00014821  NWS supplied additional snow data
+USW00014847  NWS supplied additional snow data
+USW00014852  NWS supplied additional snow data
+USW00014860  NWS supplied additional snow data
+USW00014891  NWS supplied additional snow data
+USW00014895  NWS supplied additional snow data
+USW00014922  NWS supplied additional snow data
+USW00014926  NWS supplied additional snow data
+USW00014929  NWS supplied additional snow data
+USW00014933  NWS supplied additional snow data
+USW00014935  NWS supplied additional snow data
+USW00014946  NWS supplied additional snow data
+USW00022010  NWS supplied additional snow data
+USW00023007  NWS supplied additional snow data
+USW00023023  NWS supplied additional snow data
+USW00023034  NWS supplied additional snow data
+USW00023065  NWS supplied additional snow data
+USW00023154  NWS supplied additional snow data
+USW00023161  NWS supplied additional snow data
+USW00024025  NWS supplied additional snow data
+USW00024036  NWS supplied additional snow data
+USW00024132  NWS supplied additional snow data
+USW00024137  NWS supplied additional snow data
+USW00024138  NWS supplied additional snow data
+USW00024143  NWS supplied additional snow data
+USW00024144  NWS supplied additional snow data
+USW00024152  NWS supplied additional snow data
+USW00024230  NWS supplied additional snow data
+USW00024243  NWS supplied additional snow data
+USW00093721  NWS supplied additional snow data
+USW00093738  NWS supplied additional snow data
+USW00093808  NWS supplied additional snow data
+USW00093815  NWS supplied additional snow data
+USW00093993  NWS supplied additional snow data
+USW00094012  NWS supplied additional snow data
+USW00094702  NWS supplied additional snow data
+USW00094728  NWS supplied additional snow data
+USW00094789  NWS supplied additional snow data
+USW00094814  NWS supplied additional snow data
+USW00094822  NWS supplied additional snow data
+USW00094823  NWS supplied additional snow data
+USW00094830  NWS supplied additional snow data
+USW00094846  NWS supplied additional snow data
+USW00094847  NWS supplied additional snow data
+USW00094849  NWS supplied additional snow data
+USW00094910  NWS supplied additional snow data
+
+2. Higher-precision heating and cooling degree day normals (to the
+hundredths place) are now provided in addition to the regular-precision
+normals (whole degrees). See #4 below for more information.
+
+3. The station lists on the NCDC FTP site has been updated to reflect
+NCDC's latest metadata on station locations and names. Station
+USW00092762 (a Pennsylvania station known as "Site R") has had its
+GHCN-Daily ID corrected to USW00093762 recently, but at the moment we
+have kept this station's ID as USW00092762 in SP1. This and other known
+ID issues are scheduled to be addressed in a future service pack.
+
+4. The "station" subdirectory under products has been moved into a new
+directory called "auxiliary" which also contains a new subdirectory
+entitled "high-precision-degree-days" that contains the new values
+described in item #2 above. These changes are reflected in the modified
+readme.txt file.
+
+
+
+*** September 1, 2011:
+
+In order to fix a minor bug, the following 4 files have been replaced in
+www1.ncdc.noaa.gov/pub/data/normals/1981-2010/products/precipitation/ :
+
+mtd-prcp-normal.txt
+mtd-snow-normal.txt
+ytd-prcp-normal.txt
+ytd-snow-normal.txt
+
+For precipitation, the change affects the average month-to-date and
+year-to-date totals in one month at each of 37 stations, representing
+0.03% of all station-months. For snowfall, the change impacts a total of
+427, or 0.56%, of the station-months at 422 stations. Accordingly, the
+affected individual station normals files have also been replaced in
+www1.ncdc.noaa.gov/pub/data/normals/1981-2010/products/station/
+
+In exceedingly rare instances, the month-to-date (or year-to-date)
+totals could actually decrease by a very small amount from one day to
+the next. This was an artifact of an algorithm used to smooth the totals
+through the year and only occurred when the corresponding average
+monthly total was -7777, i.e., in less than 0.005 inches of
+precipitation or 0.05 inches of snowfall.
+
+
+
+*** July 7, 2011:
+
+A file documenting the format of the filled monthly precipitation data
+(source-datasets/mly-prcp-filled.txt) has been added in the
+documentation subdirectory. See the readme.txt file for specifics on
+filenames.
+
+
+
+*** July 1, 2011:
+
+These normals were released on July 1, 2011. This includes annual,
+seasonal, monthly, daily, and hourly normals for over 9800 stations.
+
+Later installments will include climate division normals, 
+agricultural-related normals such as frost-free dates and growing degree
+days, as well as population-weighted heating and cooling degree days.

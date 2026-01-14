@@ -1,0 +1,44 @@
+# Core data processing and scientific libraries
+numpy
+pandas
+boto3
+pyarrow
+
+# PySpark for distributed processing
+pyspark
+
+# Streamlit for GUI database browser (optional, but recommended)
+streamlit
+
+# tqdm for progress bars
+tqdm
+
+# For plugins (zip, docx, etc.)
+python-docx
+openpyxl    # for xlsx
+python-pptx
+PyPDF2
+Pillow      # for png, jpg/jpeg
+mutagen     # for mp3
+moviepy     # for mp4
+olefile     # for legacy Office files like .doc, .ppt
+
+# If using interval trees for block mapping
+intervaltree
+
+# If your detector/whitelist code uses SQLAlchemy or similar, uncomment:
+# SQLAlchemy
+
+# pytsk3 if you use TSK/pytsk for NTFS file system analysis (optional)
+pytsk3
+
+# Standard library sqlite3 is built in, so NOT needed here
+
+# Testing dependencies
+pytest
+
+# Ransomware Simulator dependencies
+pyyaml
+pycryptodome
+
+pikepdf

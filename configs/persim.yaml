@@ -1,0 +1,19 @@
+mode: clone-and-pad          # Options: overwrite, clone-and-pad, block-spray
+source_dir: /tmp/input/      # Path to source files (recursive)
+target_dir: /tmp/output/     # Only for clone-and-pad mode
+block_device: /dev/sdX       # Only for block-spray mode (e.g., /dev/loop0)
+encryption_scheme: aes-256-cbc    # Options: aes-128-ecb, aes-256-cbc, chacha20
+pattern: adv-smart-pattern             # full, fast, skip-step, percent, smart-pattern, adv-smart-pattern
+pattern_args:
+  #fast_n: 1048576            # bytes (only for 'fast')
+  fast_n: 1024            # bytes (only for 'fast')
+  skip_n: 4096               # bytes (only for 'skip-step')
+  step_y: 1024               # bytes (only for 'skip-step')
+  percent_n: 4096            # bytes (only for 'percent')
+  percent_p: 10              # percentage (only for 'percent', 'smart-pattern', 'adv-smart-pattern')
+  smart_n: 8192              # bytes (only for 'smart-pattern')
+  smart_p: 20                # percent (only for 'smart-pattern')
+  adv_n: 8192                # bytes (only for 'adv-smart-pattern')
+  adv_p: 10                  # percent (only for 'adv-smart-pattern')
+  adv_b: 8                   # blocks (only for 'adv-smart-pattern')
+zero_after: true             # Overwrite encrypted region in original file with zeros (clone-and-pad & block-spray)
